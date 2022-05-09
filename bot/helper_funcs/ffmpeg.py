@@ -44,8 +44,8 @@ async def convert_video(video_file, output_directory, total_time, bot, message, 
      ## -vf eq=gamma=1.4:saturation=1.4
      ## lol 😂
     crf.insert(0, "29")
-    codec.insert(0, "libx265")
-    resolution.insert(0, "980x540")
+    codec.insert(0, "libx264")
+    resolution.insert(0, "800x540")
     audio_b.insert(0, "40k")
     preset.insert(0, "veryfast")
     watermark.insert(0, '-vf "drawtext=fontfile=font.ttf:fontsize=25:fontcolor=white:bordercolor=black@0.50:x=w-tw-10:y=10:box=1:boxcolor=black@0.5:boxborderw=6:text="')
